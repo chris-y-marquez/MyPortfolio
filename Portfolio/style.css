@@ -1,0 +1,125 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #FFF9A5;
+  
+}
+/* Classes */
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+.align-center{
+  text-align: center;
+}
+
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+/* Header */
+header {
+  background-color: #462720;
+}
+
+header h1  {
+  margin: 0;
+  color: #F3EEE2;
+  font-family: 'Garamond', Georgia, 'Times New Roman', Times, serif;
+  font-size:52px;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+}
+
+header p {
+  margin: 0;
+  color: #F3EEE2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  text-align: center;
+  padding: 30px;
+  
+}
+
+
+
+
+
+
+
+/* Main */
+ div img {
+  padding:0px;
+  border: 1rem solid;
+}
+main div {
+  padding: 5px;
+}
+ul, ol {
+  display: table;
+  margin: 0 auto;
+}
+/* Text Fonts and Sizes */
+main, article, section {
+  padding: 20px; 
+  text-align: center;
+   
+  color: #462720
+}
+
+main h2, article h2, section h2 {
+  font-size: 35px;
+  color: #462720;
+  font-family:'Courier New', Courier, monospace
+}
+main p, article p, section p {
+  font-size: 18px;
+  font-family: 'Times New Roman','Courier New', Courier, monospace
+}
+main ul{
+  font-size: 18px;
+  font-family: 'Times New Roman', Courier 
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #462720;
+  color: white;
+  margin: 100px 0 0 0 ;
+  padding: 20px 0;
+}
+
+
+
+
+/*horizontal rule*/
+hr {
+  height: 4px;
+  background-color: black;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Links */
+a:link {color: blue}
+a:visited { color: purple}
+a:hover {color: red}
+a:active {color: pink}
